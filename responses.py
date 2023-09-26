@@ -5,7 +5,7 @@ def get_response(message: str) -> str:
     p_message = message.lower()
 
     if p_message == 'hello':
-        return 'Hello Fellow Tafrinite!'
+        return 'Hello Fellow Tafrinite!\nHope you have a good time!'
 
     if p_message == 'roll':
         return str(random.randint(1,6))
